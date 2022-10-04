@@ -3,7 +3,7 @@ import example.com.matango.Matango;
 
 public class Hero {
     public String name = "ミナト";
-    int hp = 10;
+    public int hp = 10;
 
     public void attack (Matango m) {
         System.out.println(this.name + "の攻撃！");
